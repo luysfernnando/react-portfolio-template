@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import '../../variables.modules.scss';
+
+$small: 899px;
+$medium: 900px;
+
+h4 {
+  margin-top: 0.5rem;
+}
+#RespLinks {
+  margin-top: -1rem;
+}
+
+@media screen and (max-width: $small) {
+  h3 {
+    text-align: justify;
+    text-justify: inter-word;
+    color: $red;
+    width: 70vw;
+  }
+
+  #RespImages {
+    width: 50vw;
+  }
+}
+@media screen and (min-width: $medium) {
+  h3 {
+    font-weight: 200;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 35vw;
+  }
+}

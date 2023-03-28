@@ -1,5 +1,7 @@
 import self from '../img/self.jpg';
 import { colors } from '../colors/mainGradient';
+import ImgCalculadora from '../img/calculadora-penal.png';
+import ImgRastreio from '../img/rastreio.png';
 
 export const info = {
   firstName: 'Luys',
@@ -31,7 +33,7 @@ export const info = {
   socials: [
     {
       link: 'https://andy8647.com/andy.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
-      icon: 'fa fa-file',
+      icon: 'fa fa-file-pdf-o',
       label: 'resume',
     },
     {
@@ -110,16 +112,36 @@ export const info = {
     // This is where your portfolio projects will be detailed
     //   for the null ones, the button will not show up
     {
-      title: 'CryptoGoGo - Online Cryptocurrency Community and Trading platform',
-      live: null, //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/Andy8647/CryptoGoGo', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.ibb.co/6BsWs6f/01.jpg',
+      title: 'Calculadora Penal',
+      desc: 'Uma  calculadora penal  desenvolvida em ReactJs e TypeScript para um servidor de FiveM chamado Infinity RP. Esta aplicação serve para auxiliar os policiais a calcular de forma automática as penas, multas e fianças dos indivíduos que forem detidos pela polícia.',
+      langs: 'React, Typescript',
+      live: 'https://calculadora-infinitypolice.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/luysfernnando/Calculadora-Infinity-Police-v2', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: ImgCalculadora,
     },
     {
-      title: 'Dynrank.js - High-performance dynamic bar chart visualization library',
+      title: 'Rastreio de Encomendas',
+      desc: 'Essa é uma aplicação Web que consome a API dos Correios para rastrear encomendas. Pode ser facilmente implementado a API de qualquer transportadora e dessa forma conseguir rastrear encomendas de todo o mundo.',
+      langs: 'PHP, HTML',
       live: null,
       source: 'https://github.com/Andy8647/dynrank',
-      image: 'https://i.ibb.co/HFkMKtH/02.jpg',
+      image: ImgRastreio,
+    },
+    {
+      title: 'Portfolio v1',
+      desc: 'Uma versão alternativa de meu portfólio, utilizando HTML, CSS, JavaScript e jQuery. O site foi criado desde o início para ser totalmente responsívo, se adaptando em tamanhos diferentes de telas e dispositivos móveis.',
+      langs: 'PHP, HTML',
+      live: 'https://luysfernnando.vercel.app/',
+      source: 'https://github.com/Andy8647/dynrank',
+      image: ImgRastreio,
+    },
+    {
+      title: 'Rastreio de Encomendas',
+      desc: 'Essa é uma aplicação Web que consome a API dos Correios para rastrear encomendas. Pode ser facilmente implementado a API de qualquer transportadora e dessa forma conseguir rastrear encomendas de todo o mundo.',
+      langs: 'PHP, HTML',
+      live: null,
+      source: 'https://github.com/Andy8647/dynrank',
+      image: ImgRastreio,
     },
   ],
 };
