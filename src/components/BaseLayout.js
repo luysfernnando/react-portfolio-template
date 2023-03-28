@@ -71,12 +71,12 @@ export default function BaseLayout() {
             width={'100%'}
           >
             <p>
-              template created with &hearts; by{' '}
-              <a href={'https://paytonpierce.dev'}>Payton Pierce</a>
+              Website created with ❤️ by <a href={'https://paytonpierce.dev'}>Luys Fernnando</a>
             </p>
             <p>
-              enhence implemented with &hearts; by <a href={'https://andy8647.com'}>Andy Luo </a>,
-              redesigned with &hearts; by <a href={'https://ingrid0126.com'}>Ingrid Fei</a>
+              Desenvolvido usando a tecnologia <a href={'https://react.dev/'}>React</a>
+               e 
+              <a href={'https://sass-lang.com/'}>SCSS</a>
             </p>
             <p>&copy; 2023</p>
           </Box>

@@ -44,6 +44,16 @@ export default function Navbar({ darkMode, handleClick }) {
         alignItems={'center'}
         gap={{ xs: '2rem', md: '8rem' }}
         fontSize={'1rem'}
+        style={{
+          borderRadius: '1rem',
+          background: darkMode ? 'rgba(0, 0, 0, 0.2)' : 'rgba(255, 255, 255, 0.2)',
+          boxShadow: darkMode
+            ? '0 0 10px 0 rgba(0, 0, 0, 0.2)'
+            : '0 0 10px 0 rgba(255, 255, 255, 0.2)',
+          backdropFilter: 'blur(8px)',
+          WebkitBackdropFilter: 'blur(8px)',
+          transition: 'all 0.3s ease',
+        }}
       >
         {links.map((link, index) => (
           <Box

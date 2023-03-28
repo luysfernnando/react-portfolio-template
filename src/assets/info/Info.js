@@ -1,4 +1,4 @@
-import self from '../img/self.png';
+import self from '../img/self.jpg';
 import { colors } from '../colors/mainGradient';
 
 export const info = {
@@ -12,16 +12,20 @@ export const info = {
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: '🇧🇷',
-      text: 'based in the Toronto, Canada',
+      emoji: '☕',
+      text: 'Fueled by coffee',
+    },
+    {
+      emoji: '🌎',
+      text: 'Based in the Goiânia, Brazil',
     },
     {
       emoji: '💻',
-      text: 'Full Stack Developer at commonsku',
+      text: 'Full Stack Developer at SEDS',
     },
     {
       emoji: '📧',
-      text: 'andy8647lgc@gmail.com',
+      text: 'contato@luysfernnando.com',
     },
   ],
   socials: [
@@ -31,43 +35,32 @@ export const info = {
       label: 'resume',
     },
     {
-      link: 'https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=',
+      link: 'https://instagram.com/luysfernnando',
       icon: 'fa fa-instagram',
       label: 'instagram',
     },
     {
-      link: 'https://github.com/Andy8647',
+      link: 'https://github.com/luysfernnando',
       icon: 'fa fa-github',
       label: 'github',
     },
     {
-      link: 'https://www.linkedin.com/in/gancheng-luo-andy/',
+      link: 'https://www.linkedin.com/in/luysfernnando',
       icon: 'fa fa-linkedin',
       label: 'linkedin',
     },
     {
-      link: 'https://twitter.com/Andy8647L',
+      link: 'https://twitter.com/luysfernnando',
       icon: 'fa fa-twitter',
       label: 'twitter',
     },
   ],
-  bio: "Hello! I'm Gancheng (Andy) Luo. I'm a Full Stack Developer. I studied CompSci at UofT, I enjoy building web applications and learning new technologies. I'm currently working at commonsku as a Full Stack Developer. I'm also a freelance photographer. I love to travel and explore new places. I'm currently based in Toronto, Canada.",
+  bio: 'Me chamo Luys Fernnando, sou programador Full Stack com uma grande paixão pela informática. Sempre busco entregar soluções que agregam na vida das pessoas e ao mesmo tempo me desafiam. Desenvolvo sites e aplicações profissionais utilizando principalmente React, TypeScript e PHP, também possuo vasto conhecimento de HTML, CSS e JavaScript. Tenho familiaridade em desenvolver layouts modernos elegantes e responsivos. Estou sempre me aprimorando a cada projeto que colocam em minhas mãos.',
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
-    languages: ['TypeScript', 'JavaScript', 'Java', 'PHP', 'Python', 'HTML/CSS'],
-    frameworks: [
-      'React',
-      'Redux',
-      'Material UI',
-      'Vue',
-      'Express',
-      'NestJS',
-      'Spring Boot',
-      'Bootstrap/jQuery',
-      'Zend',
-      'Django',
-    ],
+    languages: ['TypeScript', 'JavaScript', 'Flutter', 'PHP', 'Python', 'HTML/CSS'],
+    frameworks: ['React', 'Material UI', 'Laravel', 'Bootstrap/jQuery'],
     databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', 'TypeORM'],
     cloudServices: ['AWS S3', 'AWS EC2', 'AWS SNS', 'Google Analytics', 'Heroku', 'Netlify'],
     tools: [
@@ -97,10 +90,6 @@ export const info = {
     {
       label: 'Guitar',
       emoji: '🎸',
-    },
-    {
-      label: 'Anime',
-      emoji: '🎞',
     },
     {
       label: 'Cooking',
