@@ -15,7 +15,6 @@ h4 {
   h3 {
     text-align: justify;
     text-justify: inter-word;
-    color: $red;
     width: 70vw;
   }
 
@@ -25,7 +24,6 @@ h4 {
 }
 @media screen and (min-width: $medium) {
   h3 {
-    font-weight: 200;
     text-align: justify;
     text-justify: inter-word;
     width: 35vw;
