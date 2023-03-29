@@ -70,7 +70,15 @@ export const info = {
     languages: ['TypeScript', 'JavaScript', 'Flutter', 'PHP', 'Python', 'HTML/CSS'],
     frameworks: ['React', 'Material UI', 'Laravel', 'Bootstrap/jQuery'],
     databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', 'TypeORM'],
-    cloudServices: ['AWS S3', 'AWS EC2', 'AWS SNS', 'Google Analytics', 'Heroku', 'Netlify'],
+    cloudServices: [
+      'AWS S3',
+      'AWS EC2',
+      'AWS SNS',
+      'Google Analytics',
+      'Heroku',
+      'Netlify',
+      'Vercel',
+    ],
     tools: [
       'Git',
       'Postman',
