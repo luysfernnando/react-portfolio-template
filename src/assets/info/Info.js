@@ -38,7 +38,7 @@ export const info = {
   ],
   socials: [
     {
-      link: 'https://andy8647.com/andy.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
+      link: 'https://luysfernnando.com/Curriculo_LuysFernnando.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
       icon: 'fa fa-file-pdf-o',
       label: 'resume',
     },
