@@ -1,9 +1,9 @@
 import self from '../img/self.png';
 import { colors } from '../colors/mainGradient';
-import ImgCalculadora from '../img/calculadora-penal.png';
-import ImgRastreio from '../img/rastreio.png';
-import ImgPortfolio from '../img/portfolio-v1.png';
-import ImgAgencia from '../img/agencia-digital.png';
+import ImgCalculadora from '../img/calculadora-penal.jpg';
+import ImgRastreio from '../img/rastreio.jpg';
+import ImgPortfolio from '../img/portfolio-v1.jpg';
+import ImgAgencia from '../img/agencia-digital.jpg';
 
 export const info = {
   firstName: 'Luys',
