@@ -120,7 +120,7 @@ export const info = {
     {
       title: 'Penal Calculator',
       desc: 'A penal calculator developed in ReactJs and TypeScript for a FiveM server called Infinity RP. This application serves to help police officers automatically calculate the penalties, fines and bails of individuals who are detained by the police.',
-      langs: 'React, Typescript',
+      langs: 'ReactJs, Typescript, Sass',
       live: 'https://calculadora-infinitypolice.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/luysfernnando/Calculadora-Infinity-Police-v2', // this should be a link to the **repository** of the project, where the code is hosted.
       image: ImgCalculadora,
@@ -128,7 +128,7 @@ export const info = {
     {
       title: 'Digital Agency Template',
       desc: 'This project was created from scratch using the knowledge acquired in the Course of Professor Dimitri, of the Web Programming channel. It has SEO optimization and is fully responsive, with adaptations made to have the best possible look on different screen sizes',
-      langs: 'PHP, HTML',
+      langs: 'HTML, CSS',
       live: null,
       source: 'https://github.com/luysfernnando/Curso-Programacao-Web-YouTube',
       image: ImgAgencia,
@@ -136,7 +136,7 @@ export const info = {
     {
       title: 'Portfolio v1',
       desc: 'An alternative version of my portfolio, using React, Typescript and SASS. The site was created from the ground up to be fully responsive, adapting to different screen sizes and mobile devices.',
-      langs: 'PHP, HTML',
+      langs: 'ReactJs, Typescript',
       live: 'https://luysfernnando.vercel.app/',
       source: 'https://github.com/luysfernnando/portfolio-react',
       image: ImgPortfolio,
@@ -144,7 +144,7 @@ export const info = {
     {
       title: 'Order Tracking',
       desc: 'This is a web application that consumes the Correios API to track packages. Other carrier APIs can be easily implemented and thus be able to track orders from all over the world.',
-      langs: 'PHP, HTML',
+      langs: 'PHP, HTML, API',
       live: null,
       source: 'https://github.com/luysfernnando/',
       image: ImgRastreio,

@@ -74,11 +74,11 @@ export default function BaseLayout() {
               Website created with ❤️ by <a href={'https://paytonpierce.dev'}>Luys Fernnando</a>
             </p>
             <p>
-              Desenvolvido usando a tecnologia <a href={'https://react.dev/'}>React</a>
-               e 
+              Developed using <a href={'https://react.dev/'}>ReactJs</a>
+               and 
               <a href={'https://sass-lang.com/'}>SCSS</a>
             </p>
-            <p>&copy; 2023</p>
+            <p>&copy; Copyright Luys Fernnando 2023 | All rights reserved</p>
           </Box>
         </Grid>
       </Grid>
