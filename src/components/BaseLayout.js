@@ -71,7 +71,7 @@ export default function BaseLayout() {
             width={'100%'}
           >
             <p>
-              Website created with ❤️ by <a href={'https://paytonpierce.dev'}>Luys Fernnando</a>
+              Website created with ❤️ by <a href={'/'}>Luys Fernnando</a>
             </p>
             <p>
               Developed using <a href={'https://react.dev/'}>ReactJs</a>
