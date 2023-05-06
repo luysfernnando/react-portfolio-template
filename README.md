@@ -5,8 +5,9 @@
 [View Live Demo](https://www.luysfernnando.com)
 
 Attention: This is based on paytonjewell's [react-portfolio-template](https://github.com/paytonjewell/ReactPortfolioTemplate)
-I just added particles background, transparent navbar with blur effect, dark mode detection and watch, Google Analytics.
-Elements redesigned by [Ingrid Fei](https://ingrid0126.com)
+and [Andy8647](https://github.com/Andy8647/react-portfolio-template) template. Some elements were also redesigned by [Ingrid Fei](https://ingrid0126.com).
+I added transparent navbar with blur effect, improved responsiveness for different screen sizes, some extra tweaks to improve the seo score, several 
+adjustments to the placement and sizes of the images on the portfolio page and added a description for each project.
 
 
 ## Features
@@ -147,7 +148,7 @@ And you're done!
 
 If you have any questions or issues with the setup process, feel free to contact me by any of the means below:
 
-[Twitter](https://twitter.com/Andy8647L) | andy8647lgc@gmail.com
+[Twitter](https://twitter.com/luysfernnando) | contato@luysfernnando.com
 
-Finally, thanks to the original author [paytonjewell](https://github.com/paytonjewell) for the well built template.
+Finally, thanks [Andy8647](https://github.com/Andy8647/react-portfolio-template) and the original author [paytonjewell](https://github.com/paytonjewell) for the well built template.
 
