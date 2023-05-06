@@ -13,9 +13,10 @@ function PortfolioBlock(props) {
         src={image}
         alt={'mockup'}
         id={'RespImages'}
+        height={'16vw'}
         width={'30vw'}
         style={{
-          objectFit: 'cover',
+          objectFit: 'fill',
           borderRadius: '25px',
           boxShadow:
             '  0 2.8px 2.2px rgba(0, 0, 0, 0.034),\n' +
