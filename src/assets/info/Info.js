@@ -4,6 +4,8 @@ import ImgCalculadora from '../img/calculadora-penal.jpg';
 import ImgRastreio from '../img/rastreio.jpg';
 import ImgPortfolio from '../img/portfolio-v1.jpg';
 import ImgAgencia from '../img/agencia-digital.jpg';
+import ImgBlog from '../img/next-blog.jpg';
+import ImgMoneyTracker from '../img/money-tracker.png';
 
 export const info = {
   firstName: 'Luys',
@@ -29,7 +31,7 @@ export const info = {
     },
     {
       emoji: '🌱',
-      text: "I'm currently studying ReactJs",
+      text: "I'm currently studying React.Js",
     },
     {
       emoji: '📧',
@@ -68,7 +70,7 @@ export const info = {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
     languages: ['TypeScript', 'JavaScript', 'Flutter', 'PHP', 'Python', 'HTML/CSS'],
-    frameworks: ['React', 'Material UI', 'Laravel', 'Bootstrap/jQuery'],
+    frameworks: ['React.Js', 'Next.Js', 'Material UI', 'Laravel', 'Bootstrap', 'Tailwind Css', 'jQuery'],
     databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', 'TypeORM'],
     cloudServices: [
       'AWS S3',
@@ -134,12 +136,29 @@ export const info = {
       image: ImgCalculadora,
     },
     {
+      title: 'Next.Js Blog',
+      desc: 'A blog made in Next.js that uses an interesting method to create new posts easily, using .md files (Markdown). Fully responsive and contains SEO optimizations. The idea for this project was to create a blog that was easy to be fed with new posts, without having to create new routes or even need to change a line of code. ',
+      langs: 'NextJs, Sass',
+      live: 'https://luys-next-blog.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/luysfernnando/next-blog', // this should be a link to the **repository** of the project, where the code is hosted.// this should be a link to the **repository** of the project, where the code is hosted.
+      image: ImgBlog,
+    },
+    {
       title: 'Digital Agency Template',
       desc: 'This project was created from scratch using the knowledge acquired in the Course of Professor Dimitri, of the Web Programming channel. It has SEO optimization and is fully responsive, with adaptations made to have the best possible look on different screen sizes',
       langs: 'HTML, CSS',
       live: null,
       source: 'https://github.com/luysfernnando/Curso-Programacao-Web-YouTube',
       image: ImgAgencia,
+    },
+    {
+      title: 'Money Tracker App',
+      desc: 'An application made to manage our daily expenses.\n' +
+          'It was created using the MERN Stack pattern for study purposes. Anyone wanting to fork the project is welcome, as long as it\'s not for profit.',
+      langs: 'MongoDB, Express, ReactJs, NodeJs',
+      live: null,
+      source: 'https://github.com/luysfernnando/money-tracker-app',
+      image: ImgMoneyTracker,
     },
     {
       title: 'Portfolio v1',
