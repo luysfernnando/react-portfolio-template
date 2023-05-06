@@ -1,17 +1,13 @@
 # React Portfolio, multiple pages with dark mode
 
-## a portfolio for developers
+![screenshot](https://www.luysfernnando.com/preview.png)
 
-![screenshot](https://andy8647.com/website.jpg)
-
-[View Live Demo](https://andy8647.com/)
+[View Live Demo](https://www.luysfernnando.com)
 
 Attention: This is based on paytonjewell's [react-portfolio-template](https://github.com/paytonjewell/ReactPortfolioTemplate)
-I just added particlets background, OS dark mode detection and watch, Google Analytics.
+I just added particles background, transparent navbar with blur effect, dark mode detection and watch, Google Analytics.
 Elements redesigned by [Ingrid Fei](https://ingrid0126.com)
 
-
-### Original README:
 
 ## Features
 
