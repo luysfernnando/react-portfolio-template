@@ -6,6 +6,7 @@ import ImgPortfolio from '../img/portfolio-v1.jpg';
 import ImgAgencia from '../img/agencia-digital.jpg';
 import ImgBlog from '../img/next-blog.jpg';
 import ImgMoneyTracker from '../img/money-tracker.png';
+import Desafio30 from '../img/desafio_javascript30.jpg';
 
 export const info = {
   firstName: 'Luys',
@@ -40,7 +41,7 @@ export const info = {
   ],
   socials: [
     {
-      link: 'https://luysfernnando.com/Curriculo_LuysFernnando.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
+      link: 'https://www.luysfernnando.com/Curriculo_LuysFernnando.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
       icon: 'fa fa-file-pdf-o',
       label: 'resume',
     },
@@ -150,6 +151,14 @@ export const info = {
       live: null,
       source: 'https://github.com/luysfernnando/Curso-Programacao-Web-YouTube',
       image: ImgAgencia,
+    },
+    {
+      title: 'Challenge "Javascript30"',
+      desc: 'This is my final project for "Javascript30 Navbar" challenge from Codewell.cc website. The goal was to build a website from scratch, and make it the same as the challenge images. Also, we had to make an animated menu in javascript that was responsive',
+      langs: 'MongoDB, Express, ReactJs, NodeJs',
+      live: 'https://luysfernnando.github.io/responsive-navbar/',
+      source: 'https://github.com/luysfernnando/responsive-navbar',
+      image: Desafio30,
     },
     {
       title: 'Money Tracker App',
