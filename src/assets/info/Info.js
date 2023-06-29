@@ -28,7 +28,7 @@ export const info = {
     },
     {
       emoji: '💻',
-      text: 'Full Stack Developer at SEDS',
+      text: 'I currently work as a freelancer',
     },
     {
       emoji: '🌱',
@@ -66,13 +66,13 @@ export const info = {
       label: 'twitter',
     },
   ],
-  bio: "My name is Luys Fernnando, I'm a Full Stack programmer with a great passion for computing. I always seek to deliver solutions that add value to people's lives and at the same time challenge me. I develop professional websites and applications using mainly React, TypeScript and PHP, I also have extensive knowledge of HTML, CSS and JavaScript. I am familiar with developing sleek and responsive modern layouts. I'm always improving myself with each project they put in my hands.",
+  bio: "I am a passionate developer about what I do. I often say that 'those who do what they love are always on vacation.' That's why I'm always eager to learn something new that helps me become an even better developer. I have 5 years of experience and have worked in both back-end and front-end, using PHP and Laravel, HTML/CSS, JavaScript, and MySQL. Currently, I am developing websites using React, Next.js, and Node.js.",
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
     languages: ['TypeScript', 'JavaScript', 'Flutter', 'PHP', 'Python', 'HTML/CSS'],
-    frameworks: ['React.Js', 'Next.Js', 'Material UI', 'Laravel', 'Bootstrap', 'Tailwind Css', 'jQuery'],
-    databases: ['MySQl', 'MongoDB', 'PostgreSQL', 'Mybatis', 'TypeORM'],
+    frameworks: ['React.Js', 'React Native', 'Next.Js', 'Material UI', 'Laravel', 'Bootstrap', 'Tailwind Css', 'jQuery', 'Node.js', 'Express.js'],
+    databases: ['MySQL', 'MongoDB', 'PostgreSQL', 'Mybatis'],
     cloudServices: [
       'AWS S3',
       'AWS EC2',
@@ -84,17 +84,11 @@ export const info = {
     ],
     tools: [
       'Git',
+      'Bitbucket',
       'Postman',
       'Docker',
-      'Swagger',
-      'Elasticsearch',
-      'npm',
-      'yarn',
-      'Maven',
-      'Jenkins',
-      'Jira',
-      'Confluence',
-      'Bitbucket',
+      'Yarn/npm',
+      'Figma',
     ],
   },
   hobbies: [
@@ -163,7 +157,7 @@ export const info = {
     {
       title: 'Money Tracker App',
       desc: 'An application made to manage our daily expenses.\n' +
-          'It was created using the MERN Stack pattern for study purposes. Anyone wanting to fork the project is welcome, as long as it\'s not for profit.',
+        'It was created using the MERN Stack pattern for study purposes. Anyone wanting to fork the project is welcome, as long as it\'s not for profit.',
       langs: 'MongoDB, Express, ReactJs, NodeJs',
       live: null,
       source: 'https://github.com/luysfernnando/money-tracker-app',
