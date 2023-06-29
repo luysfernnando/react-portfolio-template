@@ -7,6 +7,7 @@ import ImgAgencia from '../img/agencia-digital.jpg';
 import ImgBlog from '../img/next-blog.jpg';
 import ImgMoneyTracker from '../img/money-tracker.png';
 import Desafio30 from '../img/desafio_javascript30.jpg';
+import Weather from '../img/weather.png';
 
 export const info = {
   firstName: 'Luys',
@@ -139,12 +140,20 @@ export const info = {
       image: ImgBlog,
     },
     {
-      title: 'Digital Agency Template',
-      desc: 'This project was created from scratch using the knowledge acquired in the Course of Professor Dimitri, of the Web Programming channel. It has SEO optimization and is fully responsive, with adaptations made to have the best possible look on different screen sizes',
-      langs: 'HTML, CSS',
-      live: null,
-      source: 'https://github.com/luysfernnando/Curso-Programacao-Web-YouTube',
-      image: ImgAgencia,
+      title: 'Weather App',
+      desc: "This is a simple weather app built with React.js, React Hook, Tailwind CSS and consuming an external API. The main idea is to work with the important concepts like: eslint, async functions, synthetic events, hooks, styling and responsive design using tailwind css.",
+      langs: 'ReactJs, Tailwind CSS, API',
+      live: 'https://lf-weather-app.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/luysfernnando/weather-app', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: Weather,
+    },
+    {
+      title: 'Portfolio v1',
+      desc: 'An alternative version of my portfolio, using React, Typescript and SASS. The site was created from the ground up to be fully responsive, adapting to different screen sizes and mobile devices.',
+      langs: 'ReactJs, Typescript',
+      live: 'https://luysfernnando.vercel.app/',
+      source: 'https://github.com/luysfernnando/portfolio-react',
+      image: ImgPortfolio,
     },
     {
       title: 'Challenge "Javascript30"',
@@ -155,6 +164,14 @@ export const info = {
       image: Desafio30,
     },
     {
+      title: 'Digital Agency Template',
+      desc: 'This project was created from scratch using the knowledge acquired in the Course of Professor Dimitri, of the Web Programming channel. It has SEO optimization and is fully responsive, with adaptations made to have the best possible look on different screen sizes',
+      langs: 'HTML, CSS',
+      live: null,
+      source: 'https://github.com/luysfernnando/Curso-Programacao-Web-YouTube',
+      image: ImgAgencia,
+    },
+    {
       title: 'Money Tracker App',
       desc: 'An application made to manage our daily expenses.\n' +
         'It was created using the MERN Stack pattern for study purposes. Anyone wanting to fork the project is welcome, as long as it\'s not for profit.',
@@ -162,14 +179,6 @@ export const info = {
       live: null,
       source: 'https://github.com/luysfernnando/money-tracker-app',
       image: ImgMoneyTracker,
-    },
-    {
-      title: 'Portfolio v1',
-      desc: 'An alternative version of my portfolio, using React, Typescript and SASS. The site was created from the ground up to be fully responsive, adapting to different screen sizes and mobile devices.',
-      langs: 'ReactJs, Typescript',
-      live: 'https://luysfernnando.vercel.app/',
-      source: 'https://github.com/luysfernnando/portfolio-react',
-      image: ImgPortfolio,
     },
     {
       title: 'Order Tracking',
