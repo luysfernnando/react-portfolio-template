@@ -8,6 +8,7 @@ import ImgBlog from '../img/next-blog.jpg';
 import ImgMoneyTracker from '../img/money-tracker.png';
 import Desafio30 from '../img/desafio_javascript30.jpg';
 import Weather from '../img/weather.png';
+import Pizzaria from '../img/pizzaria.png';
 
 export const info = {
   firstName: 'Luys',
@@ -124,9 +125,17 @@ export const info = {
     // This is where your portfolio projects will be detailed
     //   for the null ones, the button will not show up
     {
+      title: 'Pizzaria LF',
+      desc: 'An e-commerce developed in next.js for pizza restaurants, using the following technologies: Zustand(State Management), Sanity (CMS) and Stripe (Payments).Fully functional and easy to maintain.',
+      langs: 'Next.Js, Sanity, Stripe',
+      live: 'https://pizzaria-lf.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/luysfernnando/Pizzaria-LF', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: Pizzaria,
+    },
+    {
       title: 'Penal Calculator',
       desc: 'A penal calculator developed in ReactJs and TypeScript for a FiveM server called Infinity RP. This application serves to help police officers automatically calculate the penalties, fines and bails of individuals who are detained by the police.',
-      langs: 'ReactJs, Typescript, Sass',
+      langs: 'React.Js, TypeScript, Sass',
       live: 'https://calculadora-infinitypolice.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/luysfernnando/Calculadora-Infinity-Police-v2', // this should be a link to the **repository** of the project, where the code is hosted.
       image: ImgCalculadora,
@@ -134,7 +143,7 @@ export const info = {
     {
       title: 'Next.Js Blog',
       desc: 'A blog made in Next.js that uses an interesting method to create new posts easily, using .md files (Markdown). Fully responsive and contains SEO optimizations. The idea for this project was to create a blog that was easy to be fed with new posts, without having to create new routes or even need to change a line of code. ',
-      langs: 'NextJs, Sass',
+      langs: 'Next.Js, Sass',
       live: 'https://luys-next-blog.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/luysfernnando/next-blog', // this should be a link to the **repository** of the project, where the code is hosted.// this should be a link to the **repository** of the project, where the code is hosted.
       image: ImgBlog,
@@ -142,7 +151,7 @@ export const info = {
     {
       title: 'Weather App',
       desc: "This is a simple weather app built with React.js, React Hook, Tailwind CSS and consuming an external API. The main idea is to work with the important concepts like: eslint, async functions, synthetic events, hooks, styling and responsive design using tailwind css.",
-      langs: 'ReactJs, Tailwind CSS, API',
+      langs: 'React.Js, Tailwind CSS, API',
       live: 'https://lf-weather-app.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/luysfernnando/weather-app', // this should be a link to the **repository** of the project, where the code is hosted.
       image: Weather,
@@ -150,7 +159,7 @@ export const info = {
     {
       title: 'Portfolio v1',
       desc: 'An alternative version of my portfolio, using React, Typescript and SASS. The site was created from the ground up to be fully responsive, adapting to different screen sizes and mobile devices.',
-      langs: 'ReactJs, Typescript',
+      langs: 'React.Js, Typescript',
       live: 'https://luysfernnando.vercel.app/',
       source: 'https://github.com/luysfernnando/portfolio-react',
       image: ImgPortfolio,
@@ -158,7 +167,7 @@ export const info = {
     {
       title: 'Challenge "Javascript30"',
       desc: 'This is my final project for "Javascript30 Navbar" challenge from Codewell.cc website. The goal was to build a website from scratch, and make it the same as the challenge images. Also, we had to make an animated menu in javascript that was responsive',
-      langs: 'MongoDB, Express, ReactJs, NodeJs',
+      langs: 'MongoDB, Express, React.Js, Node.Js',
       live: 'https://luysfernnando.github.io/responsive-navbar/',
       source: 'https://github.com/luysfernnando/responsive-navbar',
       image: Desafio30,
@@ -175,7 +184,7 @@ export const info = {
       title: 'Money Tracker App',
       desc: 'An application made to manage our daily expenses.\n' +
         'It was created using the MERN Stack pattern for study purposes. Anyone wanting to fork the project is welcome, as long as it\'s not for profit.',
-      langs: 'MongoDB, Express, ReactJs, NodeJs',
+      langs: 'MongoDB, Express, React.Js, Node.Js',
       live: null,
       source: 'https://github.com/luysfernnando/money-tracker-app',
       image: ImgMoneyTracker,
