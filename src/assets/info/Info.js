@@ -73,12 +73,13 @@ export const info = {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
     languages: ['TypeScript', 'JavaScript', 'Flutter', 'PHP', 'Python', 'HTML/CSS'],
-    frameworks: ['React.Js', 'React Native', 'Next.Js', 'Material UI', 'Laravel', 'Bootstrap', 'Tailwind Css', 'jQuery', 'Node.js', 'Express.js'],
+    frameworks: ['React.Js', 'React Native', 'Next.Js', 'Angular', 'Material UI', 'Laravel', 'Bootstrap', 'Tailwind Css', 'jQuery', 'Node.js', 'Express.js'],
     databases: ['MySQL', 'MongoDB', 'PostgreSQL', 'Mybatis'],
     cloudServices: [
       'AWS S3',
       'AWS EC2',
       'AWS SNS',
+      'Google Firebase',
       'Google Analytics',
       'Heroku',
       'Netlify',
